@@ -39,3 +39,33 @@
 @media(max-width:1000px){.hero{grid-template-columns:1fr;min-height:auto}.hero-visual{min-height:540px}}
 @media(max-width:760px){.brand img{width:132px}.hero{padding-top:44px}.hero-visual{min-height:430px;border-radius:24px}.hero-slash{width:190px;height:620px;right:55px;top:-90px}.hero-orbit{width:300px;height:300px;border-width:30px}.hero-part.brake{width:220px;left:15px;top:35px}.hero-part.lever{width:250px;right:-10px;top:80px}.hero-part.sprocket{width:170px;right:4px;bottom:42px}.hero-part.cable{width:250px;left:18px;bottom:20px}.hero-stamp{display:none}}
 @media(max-width:430px){.hero h1{font-size:55px}.hero-visual{min-height:355px}.hero-part.brake{width:175px}.hero-part.lever{width:215px;top:70px}.hero-part.sprocket{width:140px}.hero-part.cable{width:205px}.hero-label{top:14px;right:14px;font-size:8px}}
+
+/* Astro Inc red and white brand theme */
+:root{--bg:#fff;--panel:#fff;--panel2:#fff;--paper:#fff;--white:#fff;--ink:#171717;--muted:#666;--line:#e6e6e6;--red:#ed1c24;--red2:#c81018}
+body{background:#fff;color:var(--ink)}
+img[src*="logo-black"]{content:url("assets/logo-white.webp")}
+.header{background:rgba(255,255,255,.96);border-bottom-color:#ededed}
+.nav a{color:#555}.nav a:hover,.nav a.active{color:var(--red)}
+.nav-cta{background:var(--red)!important;color:#fff!important}
+.menu-btn{border-color:#ddd;color:var(--ink)}
+.nav{background:#fff}
+.cart-pill{color:var(--red)!important}
+.hero-shell{background:linear-gradient(180deg,#fff 0%,#fff7f7 100%)}
+.hero-shell:before{opacity:.18;background-image:linear-gradient(rgba(237,28,36,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(237,28,36,.06) 1px,transparent 1px)}
+.hero-lead,.section-head p,.feature p,.about-copy p,.page-hero p{color:#555}
+.hero-visual{border-color:#f2c7c9;background:linear-gradient(145deg,#fff 0%,#fff5f5 58%,#ffe9ea 100%);box-shadow:inset 0 1px #fff,0 28px 70px rgba(190,20,28,.12)}
+.hero-visual:before{background:radial-gradient(circle at 25% 25%,rgba(237,28,36,.1),transparent 22%),radial-gradient(circle at 84% 74%,rgba(237,28,36,.07),transparent 28%)}
+.hero-label{border-color:#f0b4b7;background:rgba(255,255,255,.82);color:var(--red)}
+.hero-stamp{background:rgba(255,255,255,.9);border-color:#f0c6c8}.hero-stamp span{color:#666}
+.strip{background:#fff1f2;color:var(--red);border-color:#f4d1d3}
+.section,.section[style],.light,.catalog{background:#fff!important;color:var(--ink)}
+.feature,.about-panel,.quote-item,.quote-summary{background:#fff;border-color:#e6e6e6}
+.about-panel{box-shadow:0 18px 50px rgba(0,0,0,.08)}
+.cta{background:var(--red)!important;color:#fff}.cta .eyebrow{color:#fff!important}.cta p{color:#fff}.cta .btn.secondary{background:#fff;color:var(--red)}
+.page-hero{background:#fff;border-bottom:1px solid #eee}
+.footer{background:#fff;color:var(--ink);border-top:1px solid #eee}.footer p,.footer-bottom{color:#666}.footer a:hover{color:var(--red)}
+.product-card{border-color:#e6e6e6;background:#fff}.product-body{background:#fff}.price{color:var(--red)}
+.btn{border-color:#ddd;color:var(--ink)}.btn.primary{background:var(--red);border-color:var(--red);color:#fff}.btn.ghost{border-color:#edb9bc;color:var(--red)}
+.search,.filter{border-color:#ddd;background:#fff;color:var(--ink)}.filter.active{background:var(--red);border-color:var(--red);color:#fff}
+.detail-info h1,.quote-summary h2{color:var(--ink)}
+.wa-float{background:var(--red);color:#fff}
