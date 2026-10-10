@@ -63,7 +63,7 @@ img[src*="logo-black"]{content:url("assets/logo-white.webp")}
 .about-panel{box-shadow:0 18px 50px rgba(0,0,0,.08)}
 .cta{background:var(--red)!important;color:#fff}.cta .eyebrow{color:#fff!important}.cta p{color:#fff}.cta .btn.secondary{background:#fff;color:var(--red)}
 .page-hero{background:#fff;border-bottom:1px solid #eee}
-.footer{background:#fff;color:var(--ink);border-top:1px solid #eee}.footer p,.footer-bottom{color:#666}.footer a:hover{color:var(--red)}
+.footer{background:#fff;color:var(--ink);border-top:1px solid #eee}.footer p,.footer-bottom{color:#666}.footer a:hover{color:var(--red)}.developer-credit a{font-weight:850;color:var(--ink)}
 .product-card{border-color:#e6e6e6;background:#fff}.product-body{background:#fff}.price{color:var(--red)}
 .btn{border-color:#ddd;color:var(--ink)}.btn.primary{background:var(--red);border-color:var(--red);color:#fff}.btn.ghost{border-color:#edb9bc;color:var(--red)}
 .search,.filter{border-color:#ddd;background:#fff;color:var(--ink)}.filter.active{background:var(--red);border-color:var(--red);color:#fff}
